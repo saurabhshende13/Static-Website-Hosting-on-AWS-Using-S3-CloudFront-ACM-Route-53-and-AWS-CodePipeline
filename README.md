@@ -106,6 +106,22 @@ The architecture diagram and reference files for this project can be found in th
 - Connect to your repository and select the appropriate branch.
 - Add build and deploy stages as needed to automate the process.
 
+![Step-8](Step-8.png)
+
+![Step-8b](Step-8b.png)
+
+![Step-8c](Step-8c.png)
+
+![Step-8d](Step-8d.png)
+
+![Step-8e](Step-8e.png)
+
+![Step-8f](Step-8f.png)
+
+![Step-8g](Step-8g.png)
+
+![Step-8h](Step-8h.png)
+
 ## Conclusion
 
 By following these steps, you will have a fully automated pipeline that deploys a static website using AWS services. The GitHub repository contains the reference diagram and project files for further guidance.
