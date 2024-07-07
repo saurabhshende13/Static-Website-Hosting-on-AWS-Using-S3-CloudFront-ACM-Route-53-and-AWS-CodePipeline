@@ -41,6 +41,8 @@ The architecture diagram and reference files for this project can be found in th
 - Enter a unique bucket name and select the appropriate region.
 - Click "Create bucket" and upload your `index.html` and `error.html` files to the bucket.
 
+![Step-1](Step-1.png)
+
 ### 2. Enable Static Website Hosting
 
 - Go to the properties tab of your S3 bucket.
