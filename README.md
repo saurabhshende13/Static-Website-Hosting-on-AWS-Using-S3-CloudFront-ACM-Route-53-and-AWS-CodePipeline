@@ -85,6 +85,10 @@ The architecture diagram and reference files for this project can be found in th
 - Under the "Distribution Settings", add the ACM certificate created earlier.
 - Complete the setup by clicking "Create Distribution".
 
+![Step-6](Step-6.png)
+
+![Step-6b](Step-6b.png)
+
 ### 7. Create Route 53 Record
 
 - Return to the Route 53 hosted zone.
