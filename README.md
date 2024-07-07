@@ -122,7 +122,7 @@ The architecture diagram and reference files for this project can be found in th
 
 ![Step-8f](Step-8f.png)
 
-![Step-8g](Step-8g.png)
+![Step-8g](Step8g.png)
 
 ![Step-8h](Step-8h.png)
 
