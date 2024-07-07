@@ -98,6 +98,10 @@ The architecture diagram and reference files for this project can be found in th
 
 ![Step-7](Step-7.png)
 
+- Validate the website by accessing it via your custom domain name.
+
+![Step-7b](Step-7b.png)
+
 ### 8. Create AWS CodePipeline
 
 - Navigate to the CodePipeline service in the AWS Management Console.
