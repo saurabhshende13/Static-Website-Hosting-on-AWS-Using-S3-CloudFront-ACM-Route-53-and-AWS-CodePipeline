@@ -74,6 +74,8 @@ The architecture diagram and reference files for this project can be found in th
 - Enter your domain name and follow the steps to validate it.
 - Add a CNAME record in your DNS provider’s records as part of the validation process.
 
+![Step-5](Step-5.png)
+
 ### 6. Create CloudFront Distribution
 
 - Go to the CloudFront service in the AWS Management Console.
