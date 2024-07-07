@@ -65,7 +65,7 @@ The architecture diagram and reference files for this project can be found in th
 - Copy the nameservers provided by Route 53.
 - Go to your domain registrar’s website and replace the existing nameservers with the ones provided by Route 53.
 
-![Step-4(Step-4.png)
+![Step-4](Step-4.png)
 
 ### 5. Create ACM Certificate
 
