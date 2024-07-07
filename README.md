@@ -58,6 +58,8 @@ The architecture diagram and reference files for this project can be found in th
 - Click on "Hosted zones" and then "Create hosted zone".
 - Enter your domain name and click "Create hosted zone".
 
+![Step-3](Step-3.png)
+
 ### 4. Update DNS Provider Nameservers
 
 - Copy the nameservers provided by Route 53.
