@@ -1,6 +1,8 @@
 # Static Website Hosting on AWS Using S3, CloudFront, ACM, Route 53, and AWS CodePipeline
 
+
 ![architecture](project.png)
+
 
 This project demonstrates the deployment of a static website on AWS, utilizing Amazon S3, CloudFront, ACM, Route 53, and AWS CodePipeline. By following a series of steps, you will create a scalable and secure static website hosting solution. The process includes setting up an S3 bucket for content storage, enabling static website hosting, configuring a custom domain with Route 53, securing the site with an ACM certificate, and distributing the content globally via CloudFront. Additionally, AWS CodePipeline is used to automate the deployment process, ensuring a seamless and efficient workflow. The architecture diagram and reference files can be found in the accompanying GitHub repository.
 
