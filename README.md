@@ -50,6 +50,8 @@ The architecture diagram and reference files for this project can be found in th
 - Select "Enable" and specify the `index.html` and `error.html` files.
 - Save the changes.
 
+![Step-2](Step-2.png)
+
 ### 3. Create Route 53 Hosted Zone
 
 - Navigate to the Route 53 service in the AWS Management Console.
