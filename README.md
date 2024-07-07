@@ -96,6 +96,8 @@ The architecture diagram and reference files for this project can be found in th
 - Set the alias target to your CloudFront distribution.
 - Save the record set.
 
+![Step-7](Step-7.png)
+
 ### 8. Create AWS CodePipeline
 
 - Navigate to the CodePipeline service in the AWS Management Console.
