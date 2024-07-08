@@ -41,7 +41,7 @@ The architecture diagram and reference files for this project can be found in th
 - Enter a unique bucket name and select the appropriate region.
 - Click "Create bucket" and upload your `index.html` and `error.html` files to the bucket.
 
-![Step-1](Step-1.png)
+![Step-1](Steps/Step-1.png)
 
 ### 2. Enable Static Website Hosting
 
@@ -50,7 +50,7 @@ The architecture diagram and reference files for this project can be found in th
 - Select "Enable" and specify the `index.html` and `error.html` files.
 - Save the changes.
 
-![Step-2](Step-2.png)
+![Step-2](Steps/Step-2.png)
 
 ### 3. Create Route 53 Hosted Zone
 
@@ -58,14 +58,14 @@ The architecture diagram and reference files for this project can be found in th
 - Click on "Hosted zones" and then "Create hosted zone".
 - Enter your domain name and click "Create hosted zone".
 
-![Step-3](Step-3.png)
+![Step-3](Steps/Step-3.png)
 
 ### 4. Update DNS Provider Nameservers
 
 - Copy the nameservers provided by Route 53.
 - Go to your domain registrar’s website and replace the existing nameservers with the ones provided by Route 53.
 
-![Step-4](Step-4.png)
+![Step-4](Steps/Step-4.png)
 
 ### 5. Create ACM Certificate
 
@@ -74,7 +74,7 @@ The architecture diagram and reference files for this project can be found in th
 - Enter your domain name and follow the steps to validate it.
 - Add a CNAME record in your DNS provider’s records as part of the validation process.
 
-![Step-5](Step-5.png)
+![Step-5](Steps/Step-5.png)
 
 ### 6. Create CloudFront Distribution
 
@@ -84,9 +84,9 @@ The architecture diagram and reference files for this project can be found in th
 - Under the "Distribution Settings", add the ACM certificate created earlier.
 - Complete the setup by clicking "Create Distribution".
 
-![Step-6](Step-6.png)
+![Step-6](Steps/Step-6.png)
 
-![Step-6b](Step-6b.png)
+![Step-6b](Steps/Step-6a.png)
 
 ### 7. Create Route 53 Record
 
@@ -95,11 +95,11 @@ The architecture diagram and reference files for this project can be found in th
 - Set the alias target to your CloudFront distribution.
 - Save the record set.
 
-![Step-7](Step-7.png)
+![Step-7](Steps/Step-7.png)
 
 - Validate the website by accessing it via your custom domain name.
 
-![Step-7b](Step-7b.png)
+![Step-7b](Steps/Step-7b.png)
 
 ### 8. Create AWS CodePipeline
 
@@ -109,21 +109,21 @@ The architecture diagram and reference files for this project can be found in th
 - Connect to your repository and select the appropriate branch.
 - Add build and deploy stages as needed to automate the process.
 
-![Step-8](Step-8.png)
+![Step-8](Steps/Step-8.png)
 
-![Step-8b](Step-8b.png)
+![Step-8b](Steps/Step-8b.png)
 
-![Step-8c](Step-8c.png)
+![Step-8c](Steps/Step-8c.png)
 
-![Step-8d](Step-8d.png)
+![Step-8d](Steps/Step-8d.png)
 
-![Step-8e](Step-8e.png)
+![Step-8e](Steps/Step-8e.png)
 
-![Step-8f](Step-8f.png)
+![Step-8f](Steps/Step-8f.png)
 
-![Step-8g](Step8g.png)
+![Step-8g](Steps/Step-8g.png)
 
-![Step-8h](Step-8h.png)
+![Step-8h](Steps/Step-8h.png)
 
 ## Conclusion
 
