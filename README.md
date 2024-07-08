@@ -80,8 +80,7 @@ The architecture diagram and reference files for this project can be found in th
 
 - Go to the CloudFront service in the AWS Management Console.
 - Click on "Create Distribution".
-- Select "Web" and click "Get Started".
-- Set the origin to your S3 bucket.
+- Set the origin to your S3 bucket and tick update s3 bucket policy.
 - Under the "Distribution Settings", add the ACM certificate created earlier.
 - Complete the setup by clicking "Create Distribution".
 
